@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "697918191220",
+    "project_id": "modellogin-96eaa",
+    "storage_bucket": "modellogin-96eaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697918191220:android:1c787fc8d672f0c4138321",
+        "android_client_info": {
+          "package_name": "com.example.bai1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCahxlc8P1zvjEphurgdCdw4yP0FkOuSxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

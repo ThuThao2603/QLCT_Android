@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E9E6C5">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:background="@drawable/edit_text_tron"
+        android:hint="ADTT"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="QUẢN LÝ CHI TIÊU"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_text_round"
+            android:hint="Email"
+            android:paddingLeft="50dp"
+            android:textColorHint="#868C91" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_email"
+            android:paddingLeft="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/edMatKhau"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_text_round"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:paddingLeft="50dp"
+            android:textColorHint="#868C91" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_key"
+            android:paddingLeft="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#E8E5C4">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="5000dp"
+            android:layout_height="2000dp"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="60dp"
+            android:text="Bạn chưa có tài khoản ?"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvDangKy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="60dp"
+            android:text="Đăng ký"
+            android:textColor="#3842EA"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btDangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edit_text_round"
+            android:backgroundTint="#E8E5C4"
+            android:text="Đăng Nhập" />
+
+        <TextView
+            android:layout_width="10000dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="120dp"
+            android:text="--------------------------------------------------------------------------------------------------- "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="10000dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="140dp"
+            android:text="Địa chỉ : Số 2 , Định Công , Hoàng Mai, Hà Nội "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="10000dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="160dp"
+            android:text="Liên hệ : 0357238238 - 0273273283 "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="10000dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="180dp"
+            android:text="Email : doanthao26032003@gmail.com"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="10000dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:text="---------------------------------------------------------------------------------------------------- "
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

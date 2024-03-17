@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/trangchu">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvMau"
+            android:layout_width="410dp"
+            android:layout_height="100dp"
+            android:background="#F6F3E4"/>
+
+        <TextView
+            android:id="@+id/tvLogo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_tron"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:hint="ADTT"
+            android:textColorHint="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvTenDangNhap"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="20dp"
+            android:text="Thao"
+            android:textSize="15dp"
+
+            />
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_alignBaseline="@+id/tvLogo"
+            android:layout_marginLeft="120dp"
+            android:text="DANH SÁCH CHI TIÊU"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/tvName"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/icon_insert" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/tvName"
+            android:layout_marginLeft="380dp"
+            android:src="@drawable/icon_1"
+           />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvSearch"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_round"
+            android:layout_marginLeft="30dp" />
+
+        <ImageView
+            android:id="@+id/icon_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvSearch"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon_search" />
+
+        <TextView
+            android:id="@+id/tvTK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tìm kiếm"
+            android:layout_alignStart="@+id/icon_search"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#757272"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_lood"
+            android:layout_alignStart="@+id/tvTK"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:background="#D8D8D8"
+        android:gravity="center_vertical"
+        android:layout_marginTop="600dp">
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/icon_home" />
+
+        <ImageView
+            android:id="@+id/ivThongKe"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="140dp"
+            android:src="@drawable/icon_chart" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="240dp"
+            android:src="@drawable/icon_apps" />
+
+        <ImageView
+            android:id="@+id/ivDangXuat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="340dp"
+            android:src="@drawable/icon_person" />
+    </RelativeLayout>
+</LinearLayout>
